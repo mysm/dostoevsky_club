@@ -1,0 +1,821 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<SaveDataInSettings>UseList</SaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<Pages name="Страницы" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="10"/>
+			<ChildItems>
+				<Page name="Основная" id="11">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Книги</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основная</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ОсновнаяРасширеннаяПодсказка" id="12"/>
+					<ChildItems>
+						<InputField name="ВидЦен" id="29">
+							<DataPath>Объект.ВидЦен</DataPath>
+							<ContextMenu name="ВидЦенКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="ВидЦенРасширеннаяПодсказка" id="31"/>
+						</InputField>
+						<InputField name="ЦенаСоСкидкой" id="95">
+							<DataPath>Объект.ЦенаСоСкидкой</DataPath>
+							<ContextMenu name="ЦенаСоСкидкойКонтекстноеМеню" id="96"/>
+							<ExtendedTooltip name="ЦенаСоСкидкойРасширеннаяПодсказка" id="97"/>
+						</InputField>
+						<InputField name="Свойство1" id="32">
+							<DataPath>Объект.Свойство1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ISBN</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство1КонтекстноеМеню" id="33"/>
+							<ExtendedTooltip name="Свойство1РасширеннаяПодсказка" id="34"/>
+						</InputField>
+						<InputField name="Свойство2" id="35">
+							<DataPath>Объект.Свойство2</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>НазваниеСерииПродукции</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство2КонтекстноеМеню" id="36"/>
+							<ExtendedTooltip name="Свойство2РасширеннаяПодсказка" id="37"/>
+						</InputField>
+						<InputField name="Свойство3" id="38">
+							<DataPath>Объект.Свойство3</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Авторы</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство3КонтекстноеМеню" id="39"/>
+							<ExtendedTooltip name="Свойство3РасширеннаяПодсказка" id="40"/>
+						</InputField>
+						<InputField name="Свойство4" id="41">
+							<DataPath>Объект.Свойство4</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>НаименованиеДляСайта</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство4КонтекстноеМеню" id="42"/>
+							<ExtendedTooltip name="Свойство4РасширеннаяПодсказка" id="43"/>
+						</InputField>
+						<InputField name="Свойство5" id="44">
+							<DataPath>Объект.Свойство5</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ТипТовара</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство5КонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="Свойство5РасширеннаяПодсказка" id="46"/>
+						</InputField>
+						<InputField name="Свойство6" id="47">
+							<DataPath>Объект.Свойство6</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>КоличествоСтраниц</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство6КонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="Свойство6РасширеннаяПодсказка" id="49"/>
+						</InputField>
+						<InputField name="Свойство7" id="50">
+							<DataPath>Объект.Свойство7</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Длина</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство7КонтекстноеМеню" id="51"/>
+							<ExtendedTooltip name="Свойство7РасширеннаяПодсказка" id="52"/>
+						</InputField>
+						<InputField name="Свойство8" id="53">
+							<DataPath>Объект.Свойство8</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ширина</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство8КонтекстноеМеню" id="54"/>
+							<ExtendedTooltip name="Свойство8РасширеннаяПодсказка" id="55"/>
+						</InputField>
+						<InputField name="Свойство9" id="56">
+							<DataPath>Объект.Свойство9</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Высота</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство9КонтекстноеМеню" id="57"/>
+							<ExtendedTooltip name="Свойство9РасширеннаяПодсказка" id="58"/>
+						</InputField>
+						<InputField name="Свойство10" id="59">
+							<DataPath>Объект.Свойство10</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вес</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство10КонтекстноеМеню" id="60"/>
+							<ExtendedTooltip name="Свойство10РасширеннаяПодсказка" id="61"/>
+						</InputField>
+						<InputField name="Свойство11" id="62">
+							<DataPath>Объект.Свойство11</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ГодВыпуска</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство11КонтекстноеМеню" id="63"/>
+							<ExtendedTooltip name="Свойство11РасширеннаяПодсказка" id="64"/>
+						</InputField>
+						<InputField name="Свойство12" id="65">
+							<DataPath>Объект.Свойство12</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>СтранаПроизводитель</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство12КонтекстноеМеню" id="66"/>
+							<ExtendedTooltip name="Свойство12РасширеннаяПодсказка" id="67"/>
+						</InputField>
+						<InputField name="Свойство13" id="68">
+							<DataPath>Объект.Свойство13</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Жанр</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство13КонтекстноеМеню" id="69"/>
+							<ExtendedTooltip name="Свойство13РасширеннаяПодсказка" id="70"/>
+						</InputField>
+						<InputField name="Свойство14" id="71">
+							<DataPath>Объект.Свойство14</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ВозрастноеОграничение</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство14КонтекстноеМеню" id="72"/>
+							<ExtendedTooltip name="Свойство14РасширеннаяПодсказка" id="73"/>
+						</InputField>
+						<InputField name="Свойство15" id="74">
+							<DataPath>Объект.Свойство15</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЯзыкИздания</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство15КонтекстноеМеню" id="75"/>
+							<ExtendedTooltip name="Свойство15РасширеннаяПодсказка" id="76"/>
+						</InputField>
+						<InputField name="Свойство16" id="77">
+							<DataPath>Объект.Свойство16</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ИмяПереводчика</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство16КонтекстноеМеню" id="78"/>
+							<ExtendedTooltip name="Свойство16РасширеннаяПодсказка" id="79"/>
+						</InputField>
+						<InputField name="Свойство17" id="80">
+							<DataPath>Объект.Свойство17</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ИмяИллюстратора</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство17КонтекстноеМеню" id="81"/>
+							<ExtendedTooltip name="Свойство17РасширеннаяПодсказка" id="82"/>
+						</InputField>
+						<InputField name="Свойство18" id="83">
+							<DataPath>Объект.Свойство18</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ТипПереплета</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство18КонтекстноеМеню" id="84"/>
+							<ExtendedTooltip name="Свойство18РасширеннаяПодсказка" id="85"/>
+						</InputField>
+						<InputField name="Свойство19" id="86">
+							<DataPath>Объект.Свойство19</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выводить товар на сайт</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство19КонтекстноеМеню" id="87"/>
+							<ExtendedTooltip name="Свойство19РасширеннаяПодсказка" id="88"/>
+						</InputField>
+						<InputField name="Свойство20" id="89">
+							<DataPath>Объект.Свойство20</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Доступен для покупки</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство20КонтекстноеМеню" id="90"/>
+							<ExtendedTooltip name="Свойство20РасширеннаяПодсказка" id="91"/>
+						</InputField>
+						<InputField name="Свойство21" id="92">
+							<DataPath>Объект.Свойство21</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Издательство</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Свойство21КонтекстноеМеню" id="93"/>
+							<ExtendedTooltip name="Свойство21РасширеннаяПодсказка" id="94"/>
+						</InputField>
+						<InputField name="Родитель" id="126">
+							<DataPath>Объект.Родитель</DataPath>
+							<ListChoiceMode>true</ListChoiceMode>
+							<ContextMenu name="РодительКонтекстноеМеню" id="127"/>
+							<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="128"/>
+						</InputField>
+						<Button name="Выгрузить" id="7">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Выгрузить</CommandName>
+							<ExtendedTooltip name="ВыгрузитьРасширеннаяПодсказка" id="8"/>
+						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="Сувениры" id="129">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сувениры</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сувениры</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>HorizontalIfPossible</Group>
+					<ExtendedTooltip name="СувенирыРасширеннаяПодсказка" id="130"/>
+					<ChildItems>
+						<InputField name="ЦенаСоСкидкойСувениры" id="134">
+							<DataPath>Объект.ЦенаСоСкидкойСувениры</DataPath>
+							<ContextMenu name="ЦенаСоСкидкойСувенирыКонтекстноеМеню" id="135"/>
+							<ExtendedTooltip name="ЦенаСоСкидкойСувенирыРасширеннаяПодсказка" id="136"/>
+						</InputField>
+						<InputField name="ВидЦенСувениры" id="131">
+							<DataPath>Объект.ВидЦенСувениры</DataPath>
+							<ContextMenu name="ВидЦенСувенирыКонтекстноеМеню" id="132"/>
+							<ExtendedTooltip name="ВидЦенСувенирыРасширеннаяПодсказка" id="133"/>
+						</InputField>
+						<InputField name="Сув1" id="137">
+							<DataPath>Объект.Сув1</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ISBN</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув1КонтекстноеМеню" id="138"/>
+							<ExtendedTooltip name="Сув1РасширеннаяПодсказка" id="139"/>
+						</InputField>
+						<InputField name="Сув2" id="140">
+							<DataPath>Объект.Сув2</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Объем</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув2КонтекстноеМеню" id="141"/>
+							<ExtendedTooltip name="Сув2РасширеннаяПодсказка" id="142"/>
+						</InputField>
+						<InputField name="Сув3" id="143">
+							<DataPath>Объект.Сув3</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Материал</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув3КонтекстноеМеню" id="144"/>
+							<ExtendedTooltip name="Сув3РасширеннаяПодсказка" id="145"/>
+						</InputField>
+						<InputField name="Сув4" id="146">
+							<DataPath>Объект.Сув4</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>НаименованиеДляСайта</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув4КонтекстноеМеню" id="147"/>
+							<ExtendedTooltip name="Сув4РасширеннаяПодсказка" id="148"/>
+						</InputField>
+						<InputField name="Сув5" id="149">
+							<DataPath>Объект.Сув5</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Цвет</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув5КонтекстноеМеню" id="150"/>
+							<ExtendedTooltip name="Сув5РасширеннаяПодсказка" id="151"/>
+						</InputField>
+						<InputField name="Сув6" id="152">
+							<DataPath>Объект.Сув6</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ТорговаяМарка</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув6КонтекстноеМеню" id="153"/>
+							<ExtendedTooltip name="Сув6РасширеннаяПодсказка" id="154"/>
+						</InputField>
+						<InputField name="Сув7" id="155">
+							<DataPath>Объект.Сув7</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Длина</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув7КонтекстноеМеню" id="156"/>
+							<ExtendedTooltip name="Сув7РасширеннаяПодсказка" id="157"/>
+						</InputField>
+						<InputField name="Сув8" id="158">
+							<DataPath>Объект.Сув8</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ширина</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув8КонтекстноеМеню" id="159"/>
+							<ExtendedTooltip name="Сув8РасширеннаяПодсказка" id="160"/>
+						</InputField>
+						<InputField name="Сув9" id="161">
+							<DataPath>Объект.Сув9</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Высота</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув9КонтекстноеМеню" id="162"/>
+							<ExtendedTooltip name="Сув9РасширеннаяПодсказка" id="163"/>
+						</InputField>
+						<InputField name="Сув10" id="164">
+							<DataPath>Объект.Сув10</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Вес</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув10КонтекстноеМеню" id="165"/>
+							<ExtendedTooltip name="Сув10РасширеннаяПодсказка" id="166"/>
+						</InputField>
+						<InputField name="Сув11" id="167">
+							<DataPath>Объект.Сув11</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>СтранаПроизводитель</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув11КонтекстноеМеню" id="168"/>
+							<ExtendedTooltip name="Сув11РасширеннаяПодсказка" id="169"/>
+						</InputField>
+						<InputField name="Сув12" id="170">
+							<DataPath>Объект.Сув12</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ВыводитьНаСайт</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув12КонтекстноеМеню" id="171"/>
+							<ExtendedTooltip name="Сув12РасширеннаяПодсказка" id="172"/>
+						</InputField>
+						<InputField name="Сув13" id="173">
+							<DataPath>Объект.Сув13</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ДоступенДляПокупки</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув13КонтекстноеМеню" id="174"/>
+							<ExtendedTooltip name="Сув13РасширеннаяПодсказка" id="175"/>
+						</InputField>
+						<InputField name="РодительСув" id="178">
+							<DataPath>Объект.РодительСув</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Родитель</v8:content>
+								</v8:item>
+							</Title>
+							<ListChoiceMode>true</ListChoiceMode>
+							<ContextMenu name="РодительСувКонтекстноеМеню" id="179"/>
+							<ExtendedTooltip name="РодительСувРасширеннаяПодсказка" id="180"/>
+						</InputField>
+						<Button name="ВыгрузитьСувениры" id="176">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ВыгрузитьСувениры</CommandName>
+							<ExtendedTooltip name="ВыгрузитьСувенирыРасширеннаяПодсказка" id="177"/>
+						</Button>
+					</ChildItems>
+				</Page>
+				<Page name="ПараметрыДоступа" id="98">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Параметры доступа</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Параметры доступа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ПараметрыДоступаРасширеннаяПодсказка" id="99"/>
+					<ChildItems>
+						<InputField name="АдресРесурса" id="100">
+							<DataPath>АдресРесурса</DataPath>
+							<ContextMenu name="АдресРесурсаКонтекстноеМеню" id="101"/>
+							<ExtendedTooltip name="АдресРесурсаРасширеннаяПодсказка" id="102"/>
+						</InputField>
+						<InputField name="Логин" id="103">
+							<DataPath>Логин</DataPath>
+							<ContextMenu name="ЛогинКонтекстноеМеню" id="104"/>
+							<ExtendedTooltip name="ЛогинРасширеннаяПодсказка" id="105"/>
+						</InputField>
+						<InputField name="Пароль" id="106">
+							<DataPath>Пароль</DataPath>
+							<PasswordMode>true</PasswordMode>
+							<ContextMenu name="ПарольКонтекстноеМеню" id="107"/>
+							<ExtendedTooltip name="ПарольРасширеннаяПодсказка" id="108"/>
+						</InputField>
+						<InputField name="РазмерПакета" id="114">
+							<DataPath>РазмерПакета</DataPath>
+							<ContextMenu name="РазмерПакетаКонтекстноеМеню" id="115"/>
+							<ExtendedTooltip name="РазмерПакетаРасширеннаяПодсказка" id="116"/>
+						</InputField>
+						<CheckBoxField name="ВключаяОсновные" id="123">
+							<DataPath>ВключаяОсновные</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сохранить насройки всех закладок</v8:content>
+								</v8:item>
+							</Title>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ВключаяОсновныеКонтекстноеМеню" id="124"/>
+							<ExtendedTooltip name="ВключаяОсновныеРасширеннаяПодсказка" id="125"/>
+						</CheckBoxField>
+						<UsualGroup name="Книги" id="181">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Книги</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Книги</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="КнигиРасширеннаяПодсказка" id="182"/>
+							<ChildItems>
+								<InputField name="ПоследнийВыгруженныйОбъект" id="117">
+									<DataPath>ПоследнийВыгруженныйОбъект</DataPath>
+									<ClearButton>true</ClearButton>
+									<ContextMenu name="ПоследнийВыгруженныйОбъектКонтекстноеМеню" id="118"/>
+									<ExtendedTooltip name="ПоследнийВыгруженныйОбъектРасширеннаяПодсказка" id="119"/>
+								</InputField>
+								<InputField name="ДатаПоследнейВыгрузки" id="120">
+									<DataPath>ДатаПоследнейВыгрузки</DataPath>
+									<ContextMenu name="ДатаПоследнейВыгрузкиКонтекстноеМеню" id="121"/>
+									<ExtendedTooltip name="ДатаПоследнейВыгрузкиРасширеннаяПодсказка" id="122"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="НастройкаСувениры" id="183">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сувениры</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройка сувениры</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="НастройкаСувенирыРасширеннаяПодсказка" id="184"/>
+							<ChildItems>
+								<InputField name="ПоследнийВыгруженныйОбъектСувениры" id="188">
+									<DataPath>ПоследнийВыгруженныйОбъектСувениры</DataPath>
+									<ContextMenu name="ПоследнийВыгруженныйОбъектСувенирыКонтекстноеМеню" id="189"/>
+									<ExtendedTooltip name="ПоследнийВыгруженныйОбъектСувенирыРасширеннаяПодсказка" id="190"/>
+								</InputField>
+								<InputField name="ДатаПоследнейВыгрузкиСувениры" id="185">
+									<DataPath>ДатаПоследнейВыгрузкиСувениры</DataPath>
+									<ContextMenu name="ДатаПоследнейВыгрузкиСувенирыКонтекстноеМеню" id="186"/>
+									<ExtendedTooltip name="ДатаПоследнейВыгрузкиСувенирыРасширеннаяПодсказка" id="187"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+						<Button name="СохранитьНастройки" id="109">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.СохранитьНастройки</CommandName>
+							<ExtendedTooltip name="СохранитьНастройкиРасширеннаяПодсказка" id="110"/>
+						</Button>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:ExternalDataProcessorObject.ВыгрузкаДанныхНаСайт_dostoevsky_club</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<Save>
+				<Field>1/0:49e35f2b-54a5-44d0-9d8a-43629d9470b8</Field>
+				<Field>1/0:aa1df141-8b06-41ff-938f-c4fe8402d898</Field>
+				<Field>1/0:c4a46963-21ca-402d-b7a1-25d30973d8fb</Field>
+				<Field>1/0:ee585a05-98d1-479d-a962-c5854f5db5a5</Field>
+				<Field>Объект.ВидЦен</Field>
+				<Field>Объект.ВидЦенСувениры</Field>
+				<Field>Объект.Родитель</Field>
+				<Field>Объект.РодительСув</Field>
+				<Field>Объект.Свойство1</Field>
+				<Field>Объект.Свойство10</Field>
+				<Field>Объект.Свойство11</Field>
+				<Field>Объект.Свойство12</Field>
+				<Field>Объект.Свойство13</Field>
+				<Field>Объект.Свойство14</Field>
+				<Field>Объект.Свойство15</Field>
+				<Field>Объект.Свойство16</Field>
+				<Field>Объект.Свойство17</Field>
+				<Field>Объект.Свойство18</Field>
+				<Field>Объект.Свойство19</Field>
+				<Field>Объект.Свойство2</Field>
+				<Field>Объект.Свойство20</Field>
+				<Field>Объект.Свойство21</Field>
+				<Field>Объект.Свойство3</Field>
+				<Field>Объект.Свойство4</Field>
+				<Field>Объект.Свойство5</Field>
+				<Field>Объект.Свойство6</Field>
+				<Field>Объект.Свойство7</Field>
+				<Field>Объект.Свойство8</Field>
+				<Field>Объект.Свойство9</Field>
+				<Field>Объект.Сув1</Field>
+				<Field>Объект.Сув10</Field>
+				<Field>Объект.Сув11</Field>
+				<Field>Объект.Сув12</Field>
+				<Field>Объект.Сув13</Field>
+				<Field>Объект.Сув2</Field>
+				<Field>Объект.Сув3</Field>
+				<Field>Объект.Сув4</Field>
+				<Field>Объект.Сув5</Field>
+				<Field>Объект.Сув6</Field>
+				<Field>Объект.Сув7</Field>
+				<Field>Объект.Сув8</Field>
+				<Field>Объект.Сув9</Field>
+				<Field>Объект.ЦенаСоСкидкой</Field>
+				<Field>Объект.ЦенаСоСкидкойСувениры</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="АдресРесурса" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес ресурса (Имя или адрес сервера с api)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Логин" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логин</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Пароль" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пароль</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="РазмерПакета" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгружать записи порциями по (шт) </v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоследнийВыгруженныйОбъект" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Последний выгруженный объект</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаПоследнейВыгрузки" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата последней выгрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВключаяОсновные" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Включая основные</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаПоследнейВыгрузкиСувениры" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата последней выгрузки сувениры</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ПоследнийВыгруженныйОбъектСувениры" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Последний выгруженный объект сувениры</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Выгрузить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Выгрузить</Action>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+		<Command name="СохранитьНастройки" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить настройки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сохранить настройки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СохранитьНастройки</Action>
+		</Command>
+		<Command name="ВыгрузитьСувениры" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить </v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить сувениры</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыгрузитьСувениры</Action>
+		</Command>
+	</Commands>
+</Form>
