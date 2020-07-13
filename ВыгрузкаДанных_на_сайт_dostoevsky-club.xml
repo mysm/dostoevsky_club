@@ -912,13 +912,47 @@
 					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="4869be2a-154f-4d2f-a054-1fccb2f99a20">
+			<Attribute uuid="7715769f-c386-4eb6-b937-44aa1810417c">
 				<Properties>
-					<Name>Сув1</Name>
+					<Name>Сув_НаименованиеДляСайта</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сув1</v8:content>
+							<v8:content>Наименование для сайта (Сув)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4869be2a-154f-4d2f-a054-1fccb2f99a20">
+				<Properties>
+					<Name>Сув_Материал</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сув материал</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -948,11 +982,11 @@
 			</Attribute>
 			<Attribute uuid="6a1a04ae-4f78-4db5-8c4f-90205e6b09c6">
 				<Properties>
-					<Name>Сув2</Name>
+					<Name>Сув_Цвет</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сув2</v8:content>
+							<v8:content>Сув цвет</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -982,45 +1016,11 @@
 			</Attribute>
 			<Attribute uuid="76112717-3ea2-4491-b2fe-0ac79fbafc05">
 				<Properties>
-					<Name>Сув3</Name>
+					<Name>Сув_ТорговаяМарка</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сув3</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="7715769f-c386-4eb6-b937-44aa1810417c">
-				<Properties>
-					<Name>Сув4</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Сув4</v8:content>
+							<v8:content>Сув торговая марка</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1050,45 +1050,11 @@
 			</Attribute>
 			<Attribute uuid="eee91d9e-6c86-448a-9aab-b48d7f089712">
 				<Properties>
-					<Name>Сув5</Name>
+					<Name>Сув_Объем</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сув5</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="dba23609-98ec-4139-8da5-bb2050be4955">
-				<Properties>
-					<Name>Сув6</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Сув6</v8:content>
+							<v8:content>Сув объем</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1118,11 +1084,11 @@
 			</Attribute>
 			<Attribute uuid="873ab734-eb45-4673-bb4f-3d05011dae20">
 				<Properties>
-					<Name>Сув7</Name>
+					<Name>Сув_Измерение1</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сув7</v8:content>
+							<v8:content>Сув измерение1</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1152,11 +1118,11 @@
 			</Attribute>
 			<Attribute uuid="d8910f21-05a0-4db7-ac92-66e4742c71db">
 				<Properties>
-					<Name>Сув8</Name>
+					<Name>Сув_Измерение2</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сув8</v8:content>
+							<v8:content>Сув измерение2</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1186,11 +1152,11 @@
 			</Attribute>
 			<Attribute uuid="2a951d43-74cc-4813-ba9e-390b80c4deda">
 				<Properties>
-					<Name>Сув9</Name>
+					<Name>Сув_Измерение3</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сув9</v8:content>
+							<v8:content>Сув измерение3</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1220,11 +1186,11 @@
 			</Attribute>
 			<Attribute uuid="e901f6e4-bfc7-4110-9e7c-0bdc3cace23f">
 				<Properties>
-					<Name>Сув10</Name>
+					<Name>Сув_Вес</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сув10</v8:content>
+							<v8:content>Сув вес</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1254,11 +1220,11 @@
 			</Attribute>
 			<Attribute uuid="b6a2a038-d23b-4710-87ba-79a7b6566d10">
 				<Properties>
-					<Name>Сув11</Name>
+					<Name>Сув_СтранаПроизводитель</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сув11</v8:content>
+							<v8:content>Сув страна производитель</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1288,11 +1254,11 @@
 			</Attribute>
 			<Attribute uuid="5528da0b-46ef-4d03-912b-b39dd6cfc2ad">
 				<Properties>
-					<Name>Сув12</Name>
+					<Name>Сув_is_active</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сув12</v8:content>
+							<v8:content>Сув is active</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -1322,11 +1288,11 @@
 			</Attribute>
 			<Attribute uuid="c77fd6fe-d077-4f4a-b772-9d803c70f59b">
 				<Properties>
-					<Name>Сув13</Name>
+					<Name>Сув_is_available</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Сув13</v8:content>
+							<v8:content>Сув is available</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

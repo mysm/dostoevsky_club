@@ -317,148 +317,137 @@
 							<ContextMenu name="ВидЦенСувенирыКонтекстноеМеню" id="132"/>
 							<ExtendedTooltip name="ВидЦенСувенирыРасширеннаяПодсказка" id="133"/>
 						</InputField>
-						<InputField name="Сув1" id="137">
-							<DataPath>Объект.Сув1</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>ISBN</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="Сув1КонтекстноеМеню" id="138"/>
-							<ExtendedTooltip name="Сув1РасширеннаяПодсказка" id="139"/>
-						</InputField>
-						<InputField name="Сув2" id="140">
-							<DataPath>Объект.Сув2</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Объем</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="Сув2КонтекстноеМеню" id="141"/>
-							<ExtendedTooltip name="Сув2РасширеннаяПодсказка" id="142"/>
-						</InputField>
-						<InputField name="Сув3" id="143">
-							<DataPath>Объект.Сув3</DataPath>
+						<InputField name="Сув_Материал" id="137">
+							<DataPath>Объект.Сув_Материал</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Материал</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="Сув3КонтекстноеМеню" id="144"/>
-							<ExtendedTooltip name="Сув3РасширеннаяПодсказка" id="145"/>
+							<ContextMenu name="Сув_МатериалКонтекстноеМеню" id="138"/>
+							<ExtendedTooltip name="Сув_МатериалРасширеннаяПодсказка" id="139"/>
 						</InputField>
-						<InputField name="Сув4" id="146">
-							<DataPath>Объект.Сув4</DataPath>
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>НаименованиеДляСайта</v8:content>
-								</v8:item>
-							</Title>
-							<ContextMenu name="Сув4КонтекстноеМеню" id="147"/>
-							<ExtendedTooltip name="Сув4РасширеннаяПодсказка" id="148"/>
-						</InputField>
-						<InputField name="Сув5" id="149">
-							<DataPath>Объект.Сув5</DataPath>
+						<InputField name="Сув_Цвет" id="140">
+							<DataPath>Объект.Сув_Цвет</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Цвет</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="Сув5КонтекстноеМеню" id="150"/>
-							<ExtendedTooltip name="Сув5РасширеннаяПодсказка" id="151"/>
+							<ContextMenu name="Сув_ЦветКонтекстноеМеню" id="141"/>
+							<ExtendedTooltip name="Сув_ЦветРасширеннаяПодсказка" id="142"/>
 						</InputField>
-						<InputField name="Сув6" id="152">
-							<DataPath>Объект.Сув6</DataPath>
+						<InputField name="Сув_ТорговаяМарка" id="143">
+							<DataPath>Объект.Сув_ТорговаяМарка</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>ТорговаяМарка</v8:content>
+									<v8:content>Торговая Марка</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="Сув6КонтекстноеМеню" id="153"/>
-							<ExtendedTooltip name="Сув6РасширеннаяПодсказка" id="154"/>
+							<ContextMenu name="Сув_ТорговаяМаркаКонтекстноеМеню" id="144"/>
+							<ExtendedTooltip name="Сув_ТорговаяМаркаРасширеннаяПодсказка" id="145"/>
 						</InputField>
-						<InputField name="Сув7" id="155">
-							<DataPath>Объект.Сув7</DataPath>
+						<InputField name="Сув_НаименованиеДляСайта" id="146">
+							<DataPath>Объект.Сув_НаименованиеДляСайта</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>НаименованиеДляСайта</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув_НаименованиеДляСайтаКонтекстноеМеню" id="147"/>
+							<ExtendedTooltip name="Сув_НаименованиеДляСайтаРасширеннаяПодсказка" id="148"/>
+						</InputField>
+						<InputField name="Сув_Объем" id="149">
+							<DataPath>Объект.Сув_Объем</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Объем</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув_ОбъемКонтекстноеМеню" id="150"/>
+							<ExtendedTooltip name="Сув_ОбъемРасширеннаяПодсказка" id="151"/>
+						</InputField>
+						<InputField name="Сув_Измерение1" id="155">
+							<DataPath>Объект.Сув_Измерение1</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Длина</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="Сув7КонтекстноеМеню" id="156"/>
-							<ExtendedTooltip name="Сув7РасширеннаяПодсказка" id="157"/>
+							<ContextMenu name="Сув_Измерение1КонтекстноеМеню" id="156"/>
+							<ExtendedTooltip name="Сув_Измерение1РасширеннаяПодсказка" id="157"/>
 						</InputField>
-						<InputField name="Сув8" id="158">
-							<DataPath>Объект.Сув8</DataPath>
+						<InputField name="Сув_Измерение2" id="158">
+							<DataPath>Объект.Сув_Измерение2</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Ширина</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="Сув8КонтекстноеМеню" id="159"/>
-							<ExtendedTooltip name="Сув8РасширеннаяПодсказка" id="160"/>
+							<ContextMenu name="Сув_Измерение2КонтекстноеМеню" id="159"/>
+							<ExtendedTooltip name="Сув_Измерение2РасширеннаяПодсказка" id="160"/>
 						</InputField>
-						<InputField name="Сув9" id="161">
-							<DataPath>Объект.Сув9</DataPath>
+						<InputField name="Сув_Измерение3" id="161">
+							<DataPath>Объект.Сув_Измерение3</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Высота</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="Сув9КонтекстноеМеню" id="162"/>
-							<ExtendedTooltip name="Сув9РасширеннаяПодсказка" id="163"/>
+							<ContextMenu name="Сув_Измерение3КонтекстноеМеню" id="162"/>
+							<ExtendedTooltip name="Сув_Измерение3РасширеннаяПодсказка" id="163"/>
 						</InputField>
-						<InputField name="Сув10" id="164">
-							<DataPath>Объект.Сув10</DataPath>
+						<InputField name="Сув_Вес" id="164">
+							<DataPath>Объект.Сув_Вес</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Вес</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="Сув10КонтекстноеМеню" id="165"/>
-							<ExtendedTooltip name="Сув10РасширеннаяПодсказка" id="166"/>
+							<ContextMenu name="Сув_ВесКонтекстноеМеню" id="165"/>
+							<ExtendedTooltip name="Сув_ВесРасширеннаяПодсказка" id="166"/>
 						</InputField>
-						<InputField name="Сув11" id="167">
-							<DataPath>Объект.Сув11</DataPath>
+						<InputField name="Сув_СтранаПроизводитель" id="167">
+							<DataPath>Объект.Сув_СтранаПроизводитель</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>СтранаПроизводитель</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="Сув11КонтекстноеМеню" id="168"/>
-							<ExtendedTooltip name="Сув11РасширеннаяПодсказка" id="169"/>
+							<ContextMenu name="Сув_СтранаПроизводительКонтекстноеМеню" id="168"/>
+							<ExtendedTooltip name="Сув_СтранаПроизводительРасширеннаяПодсказка" id="169"/>
 						</InputField>
-						<InputField name="Сув12" id="170">
-							<DataPath>Объект.Сув12</DataPath>
+						<InputField name="Сув_is_active" id="170">
+							<DataPath>Объект.Сув_is_active</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>ВыводитьНаСайт</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="Сув12КонтекстноеМеню" id="171"/>
-							<ExtendedTooltip name="Сув12РасширеннаяПодсказка" id="172"/>
+							<ContextMenu name="Сув_is_activeКонтекстноеМеню" id="171"/>
+							<ExtendedTooltip name="Сув_is_activeРасширеннаяПодсказка" id="172"/>
 						</InputField>
-						<InputField name="Сув13" id="173">
-							<DataPath>Объект.Сув13</DataPath>
+						<InputField name="Сув_is_available" id="173">
+							<DataPath>Объект.Сув_is_available</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>ДоступенДляПокупки</v8:content>
 								</v8:item>
 							</Title>
-							<ContextMenu name="Сув13КонтекстноеМеню" id="174"/>
-							<ExtendedTooltip name="Сув13РасширеннаяПодсказка" id="175"/>
+							<ContextMenu name="Сув_is_availableКонтекстноеМеню" id="174"/>
+							<ExtendedTooltip name="Сув_is_availableРасширеннаяПодсказка" id="175"/>
 						</InputField>
 						<InputField name="РодительСув" id="178">
 							<DataPath>Объект.РодительСув</DataPath>
@@ -604,6 +593,7 @@
 				<Field>1/0:49e35f2b-54a5-44d0-9d8a-43629d9470b8</Field>
 				<Field>1/0:aa1df141-8b06-41ff-938f-c4fe8402d898</Field>
 				<Field>1/0:c4a46963-21ca-402d-b7a1-25d30973d8fb</Field>
+				<Field>1/0:dba23609-98ec-4139-8da5-bb2050be4955</Field>
 				<Field>1/0:ee585a05-98d1-479d-a962-c5854f5db5a5</Field>
 				<Field>Объект.ВидЦен</Field>
 				<Field>Объект.ВидЦенСувениры</Field>
@@ -630,19 +620,18 @@
 				<Field>Объект.Свойство7</Field>
 				<Field>Объект.Свойство8</Field>
 				<Field>Объект.Свойство9</Field>
-				<Field>Объект.Сув1</Field>
-				<Field>Объект.Сув10</Field>
-				<Field>Объект.Сув11</Field>
-				<Field>Объект.Сув12</Field>
-				<Field>Объект.Сув13</Field>
-				<Field>Объект.Сув2</Field>
-				<Field>Объект.Сув3</Field>
-				<Field>Объект.Сув4</Field>
-				<Field>Объект.Сув5</Field>
-				<Field>Объект.Сув6</Field>
-				<Field>Объект.Сув7</Field>
-				<Field>Объект.Сув8</Field>
-				<Field>Объект.Сув9</Field>
+				<Field>Объект.Сув_is_active</Field>
+				<Field>Объект.Сув_is_available</Field>
+				<Field>Объект.Сув_Вес</Field>
+				<Field>Объект.Сув_Измерение1</Field>
+				<Field>Объект.Сув_Измерение2</Field>
+				<Field>Объект.Сув_Измерение3</Field>
+				<Field>Объект.Сув_Материал</Field>
+				<Field>Объект.Сув_НаименованиеДляСайта</Field>
+				<Field>Объект.Сув_Объем</Field>
+				<Field>Объект.Сув_СтранаПроизводитель</Field>
+				<Field>Объект.Сув_ТорговаяМарка</Field>
+				<Field>Объект.Сув_Цвет</Field>
 				<Field>Объект.ЦенаСоСкидкой</Field>
 				<Field>Объект.ЦенаСоСкидкойСувениры</Field>
 			</Save>
