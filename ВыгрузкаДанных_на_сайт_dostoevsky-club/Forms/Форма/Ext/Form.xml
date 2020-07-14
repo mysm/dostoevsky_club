@@ -317,6 +317,17 @@
 							<ContextMenu name="ВидЦенСувенирыКонтекстноеМеню" id="132"/>
 							<ExtendedTooltip name="ВидЦенСувенирыРасширеннаяПодсказка" id="133"/>
 						</InputField>
+						<InputField name="Сув_ISBN" id="191">
+							<DataPath>Объект.Сув_ISBN</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ISBN</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув_ISBNКонтекстноеМеню" id="192"/>
+							<ExtendedTooltip name="Сув_ISBNРасширеннаяПодсказка" id="193"/>
+						</InputField>
 						<InputField name="Сув_Материал" id="137">
 							<DataPath>Объект.Сув_Материал</DataPath>
 							<Title>
@@ -620,6 +631,7 @@
 				<Field>Объект.Свойство7</Field>
 				<Field>Объект.Свойство8</Field>
 				<Field>Объект.Свойство9</Field>
+				<Field>Объект.Сув_ISBN</Field>
 				<Field>Объект.Сув_is_active</Field>
 				<Field>Объект.Сув_is_available</Field>
 				<Field>Объект.Сув_Вес</Field>
