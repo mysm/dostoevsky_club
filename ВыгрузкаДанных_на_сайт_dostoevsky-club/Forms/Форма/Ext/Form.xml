@@ -479,6 +479,42 @@
 						</Button>
 					</ChildItems>
 				</Page>
+				<Page name="ВыгрузкаКартинок" id="194">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка картинок</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выгрузка картинок</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ВыгрузкаКартинокРасширеннаяПодсказка" id="195"/>
+					<ChildItems>
+						<InputField name="КаталогВыгрузки" id="196">
+							<DataPath>КаталогВыгрузки</DataPath>
+							<ChoiceButton>true</ChoiceButton>
+							<ContextMenu name="КаталогВыгрузкиКонтекстноеМеню" id="197"/>
+							<ExtendedTooltip name="КаталогВыгрузкиРасширеннаяПодсказка" id="198"/>
+							<Events>
+								<Event name="StartChoice">КаталогВыгрузкиНачалоВыбора</Event>
+							</Events>
+						</InputField>
+						<InputField name="Номеклатура" id="199">
+							<DataPath>Номеклатура</DataPath>
+							<ContextMenu name="НомеклатураКонтекстноеМеню" id="200"/>
+							<ExtendedTooltip name="НомеклатураРасширеннаяПодсказка" id="201"/>
+						</InputField>
+						<Button name="ВыгрузитьКартинки" id="202">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.ВыгрузитьКартинки</CommandName>
+							<ExtendedTooltip name="ВыгрузитьКартинкиРасширеннаяПодсказка" id="203"/>
+						</Button>
+					</ChildItems>
+				</Page>
 				<Page name="ПараметрыДоступа" id="98">
 					<Title>
 						<v8:item>
@@ -770,6 +806,35 @@
 				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 			</Type>
 		</Attribute>
+		<Attribute name="КаталогВыгрузки" id="11">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Каталог выгрузки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Save>
+				<Field>КаталогВыгрузки</Field>
+			</Save>
+		</Attribute>
+		<Attribute name="Номеклатура" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номеклатура (не заполнено, то по всем)</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+			</Type>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="Выгрузить" id="1">
@@ -817,6 +882,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ВыгрузитьСувениры</Action>
+		</Command>
+		<Command name="ВыгрузитьКартинки" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить картинки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выгрузить картинки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВыгрузитьКартинки</Action>
 		</Command>
 	</Commands>
 </Form>
