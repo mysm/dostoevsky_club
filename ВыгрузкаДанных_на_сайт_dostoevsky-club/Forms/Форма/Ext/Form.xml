@@ -280,7 +280,6 @@
 						</InputField>
 						<InputField name="Родитель" id="126">
 							<DataPath>Объект.Родитель</DataPath>
-							<ListChoiceMode>true</ListChoiceMode>
 							<ContextMenu name="РодительКонтекстноеМеню" id="127"/>
 							<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="128"/>
 						</InputField>
@@ -468,7 +467,6 @@
 									<v8:content>Родитель</v8:content>
 								</v8:item>
 							</Title>
-							<ListChoiceMode>true</ListChoiceMode>
 							<ContextMenu name="РодительСувКонтекстноеМеню" id="179"/>
 							<ExtendedTooltip name="РодительСувРасширеннаяПодсказка" id="180"/>
 						</InputField>
