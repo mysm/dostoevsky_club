@@ -327,6 +327,17 @@
 							<ContextMenu name="Сув_ISBNКонтекстноеМеню" id="192"/>
 							<ExtendedTooltip name="Сув_ISBNРасширеннаяПодсказка" id="193"/>
 						</InputField>
+						<InputField name="Сув_Категория" id="213">
+							<DataPath>Объект.Сув_Категория</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Категория</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Сув_КатегорияКонтекстноеМеню" id="214"/>
+							<ExtendedTooltip name="Сув_КатегорияРасширеннаяПодсказка" id="215"/>
+						</InputField>
 						<InputField name="Сув_Материал" id="137">
 							<DataPath>Объект.Сув_Материал</DataPath>
 							<Title>
@@ -581,6 +592,12 @@
 								<Event name="StartChoice">КаталогЖурналаВыгрузкиНачалоВыбора</Event>
 							</Events>
 						</InputField>
+						<CheckBoxField name="НеОтправлятьНаСайт" id="216">
+							<DataPath>НеОтправлятьНаСайт</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="НеОтправлятьНаСайтКонтекстноеМеню" id="217"/>
+							<ExtendedTooltip name="НеОтправлятьНаСайтРасширеннаяПодсказка" id="218"/>
+						</CheckBoxField>
 						<UsualGroup name="Книги" id="181">
 							<Title>
 								<v8:item>
@@ -692,6 +709,7 @@
 				<Field>Объект.Сув_Измерение1</Field>
 				<Field>Объект.Сув_Измерение2</Field>
 				<Field>Объект.Сув_Измерение3</Field>
+				<Field>Объект.Сув_Категория</Field>
 				<Field>Объект.Сув_Материал</Field>
 				<Field>Объект.Сув_НаименованиеДляСайта</Field>
 				<Field>Объект.Сув_Объем</Field>
@@ -838,9 +856,6 @@
 					<v8:AllowedLength>Variable</v8:AllowedLength>
 				</v8:StringQualifiers>
 			</Type>
-			<Save>
-				<Field>КаталогВыгрузки</Field>
-			</Save>
 		</Attribute>
 		<Attribute name="Номеклатура" id="12">
 			<Title>
@@ -893,6 +908,17 @@
 					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="НеОтправлятьНаСайт" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не отправлять на сайт</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>
