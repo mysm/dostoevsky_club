@@ -514,6 +514,7 @@
 						</InputField>
 						<InputField name="Номеклатура" id="199">
 							<DataPath>Номеклатура</DataPath>
+							<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
 							<ContextMenu name="НомеклатураКонтекстноеМеню" id="200"/>
 							<ExtendedTooltip name="НомеклатураРасширеннаяПодсказка" id="201"/>
 						</InputField>
