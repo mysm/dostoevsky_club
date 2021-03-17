@@ -1419,6 +1419,7 @@
 				</Properties>
 			</Attribute>
 			<Form>Форма</Form>
+			<Template>МакетОбработки</Template>
 		</ChildObjects>
 	</ExternalDataProcessor>
 </MetaDataObject>
